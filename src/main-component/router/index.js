@@ -35,19 +35,19 @@ const AllRoute = () => {
         <Switch>
           <Route exact path='/' component={Homepage} />
           <Route path='/home' component={Homepage} />
-          <Route path='/home2' component={Homepage2} />
-          <Route path='/home3' component={Homepage3} />
-          <Route path='/home4' component={Homepage4} />
+          {/*<Route path='/home2' component={Homepage2} />*/}
+          {/*<Route path='/home3' component={Homepage3} />*/}
+          {/*<Route path='/home4' component={Homepage4} />*/}
           <Route path='/about' component={AboutPage} />
-          <Route path='/portfolio-grid' component={PortfolioGrid} />
-          <Route path='/portfolio-grid-s2' component={PortfolioGridS2} />
-          <Route path='/portfolio-grid-s3' component={PortfolioGridS3} />
-          <Route path='/portfolio-slide' component={PortfolioSlide} />
-          <Route path='/portfolio-single/:id' component={PortfolioSinglePage} />
-          <Route path='/service' component={ServicePage} />
-          <Route path='/service-single/:id' component={ServiceSinglePage} />
-          <Route path='/project-single/:id' component={ProjectSinglePage} />
-          <Route path='/contact' component={ContactPage} />
+          {/*<Route path='/portfolio-grid' component={PortfolioGrid} />*/}
+          {/*<Route path='/portfolio-grid-s2' component={PortfolioGridS2} />*/}
+          {/*<Route path='/portfolio-grid-s3' component={PortfolioGridS3} />*/}
+          {/*<Route path='/portfolio-slide' component={PortfolioSlide} />*/}
+          {/*<Route path='/portfolio-single/:id' component={PortfolioSinglePage} />*/}
+          {/*<Route path='/service' component={ServicePage} />*/}
+          {/*<Route path='/service-single/:id' component={ServiceSinglePage} />*/}
+          {/*<Route path='/project-single/:id' component={ProjectSinglePage} />*/}
+          {/*<Route path='/contact' component={ContactPage} />*/}
           <Route path='/404' component={ErrorPage} />
           <Route path='/blog-single/:id' component={BlogDetails} />
           <Route path='/blog-single-left-sidebar/:id' component={BlogDetailsLeftSiide} />
@@ -55,9 +55,9 @@ const AllRoute = () => {
           <Route path='/blog' component={BlogPage} />
           <Route path='/blog-left-sidebar' component={BlogPageLeft} />
           <Route path='/blog-fullwidth' component={BlogPageFullwidth} />
-          <Route path='/login' component={LoginPage} />
-          <Route path='/register' component={SignUpPage} />
-          <Route path='/forgot-password' component={ForgotPassword} />
+          {/*<Route path='/login' component={LoginPage} />*/}
+          {/*<Route path='/register' component={SignUpPage} />*/}
+          {/*<Route path='/forgot-password' component={ForgotPassword} />*/}
         </Switch>
       </Router>
 
