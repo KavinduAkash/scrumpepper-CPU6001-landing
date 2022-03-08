@@ -14,7 +14,7 @@ const ServiceSection = (props) => {
     return (
         <section className={`wpo-service-section ${props.sClass}`}>
             <div className="container">
-                <SectionTitle subTitle={'Our Services'} MainTitle={'What Can We Offer'} vTitle={'Service'}/>
+                <SectionTitle subTitle={'Our Features'} MainTitle={'What Can We Offer'} vTitle={'Service'}/>
                 <div className="row">
                     {Services.map((service, Sitem) => (
                         <div className="col-lg-4 col-md-6 col-12"  key={Sitem}>

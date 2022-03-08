@@ -22,9 +22,9 @@ const HomePage =() => {
             <Features/>
             <About/>
             <ServiceSection/>
-            <FunFact/>
-            <ProjectSection/>
-            <Testimonial/>
+            {/*<FunFact/>*/}
+            {/*<ProjectSection/>*/}
+            {/*<Testimonial/>*/}
             <Support/>
             <BlogSection/>
             <Footer/>
