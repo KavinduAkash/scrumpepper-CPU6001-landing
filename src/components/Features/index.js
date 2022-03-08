@@ -13,22 +13,22 @@ const Features = (props) => {
          {
             id:'1',
             fIcon:fIcon1,
-            title:'Creating a Concept',
+            title:'Register and create corporate account',
          },
          {
             id:'2',
             fIcon:fIcon2,
-            title:'Budget Planning',   
+            title:'Add your team to corporate account',
          },
          {
             id:'3',
             fIcon:fIcon3,
-            title:'Design Process',    
+            title:'Create your corporate project',
          },
          {
             id:'4',
             fIcon:fIcon4,
-            title:'Building Your Dream',    
+            title:'Manage your corporate projects',
          },
          
      ]
@@ -37,7 +37,7 @@ const Features = (props) => {
     return(
         <section className={`wpo-work-section section-padding ${props.wClass}`}>
             <div className="container">
-                <SectionTitle subTitle={'Working Process'} MainTitle={'How We Do Our Work Plan'} vTitle={'Work'}/>
+                <SectionTitle subTitle={'Working Process'} MainTitle={'How It\'s work'} vTitle={'Work'}/>
                 <div className="wpo-work-wrap">
                     <div className="row">
                         {featres.map((featres, fitem) => (
