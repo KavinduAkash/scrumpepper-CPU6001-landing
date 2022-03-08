@@ -7,12 +7,11 @@ const Support = (props) => {
             <div className="container">
                 <div className="wpo-support-wrap">
                     <div className="wpo-support-item-left">
-                        <h3>Have a defferent question?</h3>
-                        <p>There are many variations of passages of Lorem Ipsum 
-                            available, but the majority have suffered alteration.</p>
+                        <h3>Why late? Sign up today!</h3>
+                        <p>Have a experience with 2022 matching scrum-based PM tool today.</p>
                     </div>
                     <div className="wpo-support-item-right">
-                        <Link to="/contact" className="theme-btn">Submit a Ticket</Link>
+                        <Link to="/contact" className="theme-btn">Sign up now</Link>
                     </div>
                 </div>
             </div>

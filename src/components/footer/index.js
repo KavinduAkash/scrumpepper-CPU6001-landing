@@ -67,27 +67,26 @@ const Footer = (props) =>{
                             </div>
                             <div className="contact-ft">
                                 <ul>
-                                    <li><i className="fi flaticon-placeholder"></i>7 Green Lake Street Crawfordsville, IN
-                                        47933</li>
-                                    <li><i className="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                    <li><i className="fi flaticon-email"></i>anur@gmail.com</li>
+                                    <li><i className="fi flaticon-placeholder"></i>Colombo, Sri Lanka</li>
+                                    {/*<li><i className="fi flaticon-phone-call"></i>+1 800 123 456 789</li>*/}
+                                    <li><i className="fi flaticon-email"></i>kavinducv@gmail.com</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div className="widget instagram">
-                            <div className="widget-title">
-                                <h3>Projects</h3>
-                            </div>
-                            <ul className="d-flex">
-                                {Project.slice(0, 6).map((project, Pitem) => (
-                                    <li key={Pitem}><Link onClick={ClickHandler} to={`/project-single/${project.Id}`}><img src={project.pImg} alt="" /></Link></li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
+                    {/*<div className="col col-lg-3 col-md-6 col-sm-12 col-12">*/}
+                    {/*    <div className="widget instagram">*/}
+                    {/*        <div className="widget-title">*/}
+                    {/*            <h3>Projects</h3>*/}
+                    {/*        </div>*/}
+                    {/*        <ul className="d-flex">*/}
+                    {/*            {Project.slice(0, 6).map((project, Pitem) => (*/}
+                    {/*                <li key={Pitem}><Link onClick={ClickHandler} to={`/project-single/${project.Id}`}><img src={project.pImg} alt="" /></Link></li>*/}
+                    {/*            ))}*/}
+                    {/*        </ul>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>
@@ -95,7 +94,7 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright"> Copyright &copy; 2021 anur by <Link onClick={ClickHandler} to="/">wpOceans</Link>.
+                        <p className="copyright"> Copyright &copy; 2022 Scrum Pepper by <Link onClick={ClickHandler} to="/">Kavindu Akash</Link>.
                             All Rights Reserved.</p>
                     </div>
                 </div>

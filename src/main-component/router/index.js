@@ -47,7 +47,7 @@ const AllRoute = () => {
           {/*<Route path='/service' component={ServicePage} />*/}
           {/*<Route path='/service-single/:id' component={ServiceSinglePage} />*/}
           {/*<Route path='/project-single/:id' component={ProjectSinglePage} />*/}
-          {/*<Route path='/contact' component={ContactPage} />*/}
+          <Route path='/contact' component={ContactPage} />
           <Route path='/404' component={ErrorPage} />
           <Route path='/blog-single/:id' component={BlogDetails} />
           <Route path='/blog-single-left-sidebar/:id' component={BlogDetailsLeftSiide} />

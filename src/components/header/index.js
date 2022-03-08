@@ -52,8 +52,8 @@ export default class Header extends Component {
                                                 <Link onClick={ClickHandler} to="/">Home</Link>
                                             </li>
                                             <li><Link onClick={ClickHandler} to="/about">About</Link></li>
-                                            <li>
-                                                <Link onClick={ClickHandler} to="/blog">Blog</Link>
+                                            {/*<li>*/}
+                                            {/*    <Link onClick={ClickHandler} to="/blog">Blog</Link>*/}
                                                 {/*<ul className="sub-menu">*/}
                                                 {/*    <li><Link onClick={ClickHandler} to="/blog">Blog right sidebar</Link></li>*/}
                                                 {/*    <li><Link onClick={ClickHandler} to="/blog-left-sidebar">Blog left sidebar</Link></li>*/}
@@ -70,7 +70,7 @@ export default class Header extends Component {
                                                 {/*        </ul>*/}
                                                 {/*    </li>*/}
                                                 {/*</ul>*/}
-                                            </li>
+                                            {/*</li>*/}
                                             <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>

@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle'
 import Contactpage from '../../components/Contactpage'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Logo from '../../images/logo-3.png'
+import Logo from '../../images/logo.png'
 
 const ContactPage =() => {
     return(
